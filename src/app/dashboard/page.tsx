@@ -11,7 +11,7 @@ import { Label } from "@radix-ui/react-label";
 import Link from "next/link";
   
 
-const page = () => {
+const Dashboard = () => {
   const { role } = useGetRole();
 
 
@@ -68,4 +68,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Dashboard;
